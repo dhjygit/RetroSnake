@@ -92,7 +92,7 @@ class Snake_paly:
         score_Rect.midtop = (320, 240)
         DISPLAY.blit(score_Surf, score_Rect)  # 绑定以上设置到句柄
 
-    def GameOver(self): # 游戏结束并退出
+    def GameOver(self):  # 游戏结束并退出
         GameOver_Surf = BASICFONT.render('Game Over!', True, GREY)  # 设置GameOver的显示颜色
         GameOver_Rect = GameOver_Surf.get_rect()  # 设置GameOver的位置
         GameOver_Rect.midtop = (320, 10)
